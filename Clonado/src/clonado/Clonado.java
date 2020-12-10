@@ -16,6 +16,15 @@ public class Clonado {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+       int resultadosuma, resultadoresta;
+       resultadosuma = Suma(3,10);
+        System.out.println("La suma es: " + resultadosuma);
+    }
+    
+    public static int Suma(int a, int b){
+        int res;
+        res = a + b;
+        return res;
     }
     
 }
