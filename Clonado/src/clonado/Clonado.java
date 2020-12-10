@@ -16,10 +16,11 @@ public class Clonado {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-       int resultadosuma; resultadoresta;
+       int resultadosuma, resultadoresta;
        resultadosuma = Suma(3,10);
-       resultadoresta = resta(9,2);
+       resultadoresta = Resta(9,2);
         System.out.println("La suma es: " + resultadosuma);
+        System.out.println("La resta es: " + resultadoresta);
     }
     
     public static int Suma(int a, int b){
@@ -27,10 +28,10 @@ public class Clonado {
         res = a + b;
         return res;
     }
-    public static int resta (int a, int b){
-      int sol;
-      sol = a - b;
-      return sol;
+    public static int Resta (int a, int b){
+      int res;
+      res = a - b;
+      return res;
   }
 }
-}
+
